@@ -2234,6 +2234,22 @@ body.is-preload #wrapper {
   }
 }
 
+
+/*work*/
+
+#main > .panel.work .blog img{
+  max-width: 100%;
+  padding-bottom: 2px;
+  border: #000;
+}
+
+#main > .panel.work .blog li{
+  font-size: medium;
+  font-weight: 400;
+}
+
+
+
 /*experience*/
 
 
@@ -2247,6 +2263,8 @@ body.is-preload #wrapper {
   height: 70px;
  
 }
+
+
 
 
 
@@ -2282,6 +2300,11 @@ body.is-preload #wrapper {
   height: 250px;
 }
 
+@media screen and (max-width: 980px){
+#main > .panel.education .certi-con{
+display: table-row;
+}
+}
 
 /* Footer */
 
